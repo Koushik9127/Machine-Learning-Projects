@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+streamlit
+matplotlib
+seaborn
+torch
+pytorch-lightning
+tensorflow
+boto3
+apache-airflow
+pyspark
