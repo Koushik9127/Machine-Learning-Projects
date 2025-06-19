@@ -1,10 +1,17 @@
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
 .env
-*.env
-output/
-logs/
-*.DS_Store
-*.ipynb_checkpoints
+.venv
+env/
+venv/
+
+# Mac system files
+.DS_Store
+*.icloud
+.Trashes
