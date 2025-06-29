@@ -1,68 +1,82 @@
-# Machine Learning & Generative AI Projects Portfolio
+# 🧠 Machine Learning & Generative AI Projects Portfolio
 
-This repository contains a collection of end-to-end ML and GenAI projects, each built with production-level practices including data preprocessing, modeling, evaluation, explainability, deployment, and LLM-based applications.
+Welcome to my curated collection of Machine Learning and Generative AI projects. Each project is designed with real-world applicability and production-level practices—spanning classical ML pipelines, deep learning architectures, transformer-based NLP, and LLM-powered applications.
 
----
-
-## 📁 Project Overview
-
-| Folder | Project | Highlights |
-|--------|---------|------------|
-| `customer_churn_pipeline/` | Customer Churn Prediction | XGBoost, SHAP, MLflow, FastAPI, Streamlit |
-| `resume_qna_bot/` | Resume QnA Chatbot | LangChain, OpenAI, PDF embeddings, Streamlit |
-| `loan_default_prediction/` | Loan Default Classifier | RandomForest, BERT, TensorFlow, SQL |
-| `ecommerce_review_classifier/` | Ecommerce Review Classifier | TF-IDF+SVM, PyTorch LSTM, Hugging Face |
-| `genai_projects_suite/` | GenAI Toolkit | Chat with PDF, README Search, Job Alert Bot, Idea Generator |
+This portfolio reflects my hands-on expertise in:
+- Data preprocessing and feature engineering
+- Model training, tuning, and evaluation
+- Explainability (SHAP, LIME)
+- FastAPI/Streamlit-based deployment
+- MLOps tools (MLflow, Docker, GitHub Actions)
+- LLMs and generative AI with LangChain + OpenAI APIs
 
 ---
 
-## 🧠 Tools & Libraries by Category
+## 📁 Project Portfolio
+
+| Folder | Project | Description | Tech Stack |
+|--------|---------|-------------|------------|
+| `customer_churn_pipeline/` | Customer Churn Prediction | Predict customer attrition using behavioral and service features | XGBoost, SHAP, MLflow, FastAPI, Streamlit |
+| `resume_qna_bot/` | Resume QnA Chatbot | LLM-powered chatbot that answers questions from uploaded resumes | LangChain, OpenAI, FAISS, Streamlit |
+| `loan_default_prediction/` | Loan Default Classifier | Predict likelihood of loan default using borrower and loan data | RandomForest, BERT, TensorFlow, SQL |
+| `ecommerce_review_classifier/` | Ecommerce Review Classifier | Classify product reviews as positive or negative using text embeddings | TF-IDF, SVM, PyTorch LSTM, Hugging Face |
+| `genai_projects_suite/` | GenAI Toolkit | A suite of LLM tools: PDF Q&A, Job Bot, README search, Idea generator | LangChain, OpenAI, Streamlit |
+| `project-breast-cancer-prediction/` | Breast Cancer Prediction | Diagnose cancer using structured medical data | scikit-learn, XGBoost |
+| `project-cell-nuclei-segmentation/` | Cell Nuclei Segmentation | Segment nuclei in microscope images for pathology automation | OpenCV, TensorFlow, U-Net |
+| `project-customer-intelligence-platform/` | Customer Intelligence Platform | Analyze and visualize customer insights for business strategy | pandas, seaborn, sklearn |
+| `project-patient-care-triage/` | Patient Care Triage | Automate medical triage using symptom and condition data | scikit-learn, healthcare APIs |
+| `project-text-summarizer-app/` | Text Summarizer App | Summarize long documents into concise versions using transformers | Hugging Face, T5/BART, Streamlit |
+
+---
+
+## 🛠 Tech Stack & Tools
 
 ### ▶️ Machine Learning
-scikit-learn, XGBoost, SVM, Random Forest, Gradient Boosting, PCA
+`scikit-learn`, `XGBoost`, `RandomForest`, `SVM`, `GradientBoosting`, `PCA`
 
 ### 🧠 Deep Learning
-TensorFlow, PyTorch, Keras, CNN, RNN, LSTM, Transfer Learning
+`TensorFlow`, `PyTorch`, `Keras`, `CNN`, `LSTM`, `Transfer Learning`
 
 ### 📚 NLP & Transformers
-Hugging Face Transformers, BERT, DistilBERT, Tokenizers, Self-Attention
+`Hugging Face`, `BERT`, `DistilBERT`, `T5`, `Tokenizers`, `Self-Attention`
 
-### 💡 GenAI & LLMs
-LangChain, OpenAI GPT, FAISS, Prompt Engineering, Encoder-Decoder models
+### 💡 Generative AI & LLMs
+`LangChain`, `OpenAI GPT-4`, `FAISS`, `Prompt Engineering`
 
 ### 🛠️ Deployment & MLOps
-FastAPI, Streamlit, Docker, GitHub Actions, MLflow
+`FastAPI`, `Streamlit`, `MLflow`, `Docker`, `GitHub Actions`
 
-### 🧮 Data & Visualization
-Pandas, SQL, Matplotlib, Seaborn, Tableau, Power BI
+### 📊 Data & Visualization
+`pandas`, `NumPy`, `SQL`, `matplotlib`, `seaborn`, `Tableau`, `Power BI`
 
 ---
 
-## ⚙️ Example Workflow
+## ⚙️ Quick Start Guide
 
-### ▶️ Run Churn Prediction Pipeline
+Clone the repository and set up the virtual environment:
 
 ```bash
-cd customer_churn_pipeline
-pip install -r requirements.txt
-python src/train.py             # Train model and log to MLflow
-streamlit run app/main.py      # Launch prediction UI
-
-Each folder contains:
-
-notebooks/: EDA + experiments
-src/: model scripts
-app/: Streamlit or FastAPI interface
-requirements.txt: environment setup
-📦 Installation & Setup
-
 git clone https://github.com/Koushik9127/Machine-Learning-Projects.git
 cd Machine-Learning-Projects
-python -m venv venv && source venv/bin/activate
-Enter any project folder and follow its README.md to run.
+python -m venv venv
+source venv/bin/activate  # or .\venv\Scripts\activate on Windows
+Run Churn Prediction App:
+cd customer_churn_pipeline
+pip install -r requirements.txt
+python src/train.py
+streamlit run app/main.py
+📦 Project Structure
 
+Machine-Learning-Projects/
+├── project-name/
+│   ├── notebooks/
+│   ├── src/
+│   ├── app/
+│   └── requirements.txt
+├── README.md
+└── LICENSE
 📄 License
 
-This repository is licensed under the MIT License.
-Feel free to explore, fork, or extend.
+Licensed under the MIT License.
+Feel free to explore, fork, and extend the work.
 
