@@ -1,18 +1,31 @@
 # 🎯 Real-Time Object Detection Dashboard
 
-## Overview
-A dashboard to monitor real-time object detection using **YOLO** and **OpenCV**. Visualizes predictions with live video feed.
+## 📋 Overview
+This project demonstrates a real-time object detection pipeline using Python and OpenCV.
+It is designed to process live video from webcam and display detected objects dynamically.
 
-## Features
-- Real-time video stream processing
-- Object detection using YOLOv5
-- Prediction visualization on dashboard
-- Export results as CSV or JSON
+## ⚙️ Features
+- Real-time webcam feed
+- Object detection pipeline
+- Placeholder for integrating YOLO / SSD / Custom models
+- Modular folder structure for scalability
 
-## Tech Stack
-Python 3.10+, OpenCV, PyTorch, YOLOv5, Streamlit/Flask
+## 🧰 Tech Stack
+- Python 3.10+
+- OpenCV
+- PyTorch / Torchvision
+- NumPy
+- Matplotlib
 
-## How to Run
+## 📂 Folder Structure
+- **app/** → Main scripts for running the dashboard
+- **src/** → Core detection scripts
+- **models/** → Pre-trained models
+- **README.md**
+- **requirements.txt**
+
+## 🚀 How to Run
 ```bash
 pip install -r requirements.txt
-python app/main.py
+# Add your scripts to src/ and app/ then run main.py
+```

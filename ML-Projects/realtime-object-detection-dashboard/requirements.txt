@@ -1,7 +1,5 @@
-torch
 opencv-python
 numpy
-pandas
-streamlit
+torch
+torchvision
 matplotlib
-seaborn
